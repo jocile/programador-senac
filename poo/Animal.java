@@ -1,4 +1,4 @@
-public class Animal2 {
+public class Animal {
     public String Nome;
     public String Classe;
     public String Familia;
@@ -7,9 +7,9 @@ public class Animal2 {
     }
 
     public static void main(String[] args) {
-        Animal2 animal1 = new Animal2();
-        Animal2 animal2 = new Animal2();
-        Animal2 animal3 = new Animal2();
+        Animal animal1 = new Animal();
+        Animal animal2 = new Animal();
+        Animal animal3 = new Animal();
         animal1.Nome = "Totó";
         animal1.Classe = "mamífero";
         animal1.Familia = "Canídeo";
@@ -35,7 +35,7 @@ public class Animal2 {
         System.out.println("Familia: " + animal3.Familia);
         System.out.println("Idade: " + animal3.Idade);
         System.out.println("métodos do animal: ");
-        animal2.nascer();
+        animal1.nascer();
         animal3.morrer();
         animal2.correr();
         animal1.comer();
