@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Animal">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="" visibility="public" xPosition="400.0" yPosition="158.0">
+      <Fields>
+        <Field name="Nome" type="String" visibility="public"/>
+        <Field name="Classe" type="String" visibility="public"/>
+        <Field name="Familia" type="String" visibility="public"/>
+        <Field name="Idade" type="int" visibility="public"/>
+        <Field name="Estado" type="boolean" visibility="public"/>
+        <Field name="Caloria" type="int" visibility="public"/>
+        <Field name="Forca" type="int" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="nacer" returnType="void" visibility="public"/>
+        <Method name="morrer" returnType="void" visibility="public"/>
+        <Method name="comer" returnType="void" visibility="public"/>
+        <Method name="correr" returnType="void" visibility="public"/>
+        <Method name="dormir" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
