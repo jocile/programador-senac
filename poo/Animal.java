@@ -1,10 +1,12 @@
 public class Animal {
+
     public String Nome;
     public String Classe;
     public String Familia;
-    public int Idade;
-    public void untitledMethod() {
-    }
+    public int Idade;    
+    public boolean Estado;
+    public int Caloria;
+    public int Forca;
 
     public static void main(String[] args) {
         Animal animal1 = new Animal();
@@ -41,12 +43,22 @@ public class Animal {
         animal1.comer();
     }
 
-    public void nascer() {
+    public void nascer(String Nome, String Classe, String Familia, int Idade,    
+        boolean Estado, int Caloria, int Forca) {
+        
+        this.Nome = Nome;
+        this.Classe = Classe;
+        this.Familia = Familia;
+        this.Idade = Idade;
+        this.Estado = Estado;
+        this.Caloria = Caloria;
+        this.Forca = Forca;
+        
         System.out.println("O " + Nome + " nasceu");
     }
 
-    public void morrer() {
-        System.out.println("O " + Nome + " morreu");
+    public String morrer() {        
+        return ("O " + Nome + " morreu");
     }
 
     public void comer() {
@@ -59,5 +71,8 @@ public class Animal {
 
     public void dormir() {
         System.out.println("O " + Nome + " dorme");
+    }
+
+    public void nacer() {
     }
 }
